@@ -32,7 +32,7 @@ namespace IOFilesAndDirectories_Lesson17
         public string WriteStudentsFixedLength()
         {
             string str;
-            str = string.Format("{0:9},{1:12},{2:20},{3:3}", ID.ToString(), FirstName, LastName, Grade.ToString());
+            str = string.Format("{0:9}{1:12}{2:20}{3:3}", ID.ToString(), FirstName, LastName, Grade.ToString());
             return str;
         }
     }
